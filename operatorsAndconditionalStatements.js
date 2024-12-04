@@ -51,3 +51,11 @@ console.log("senior");
 //condition ? true : false
 let result=age >=18 ? "adult" :"not adult"; // simplier and compact if-else.
 console.log(result);
+  //prompt is use to get user input for temparally.
+
+  let number = prompt("enter the number:");
+  if(number%2===0){
+    console.log(number,"is even");
+  }else{
+    console.log(number,"is odd");
+  }
