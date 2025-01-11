@@ -38,40 +38,40 @@
 //     console.log(val**2);
 
 // });
+
+
 //array.filter
 //it will filter the array based on the condition
-// let vowels=["a","b","c","e"];
-// vowels.filter((val) =>{
-//     if(val=='a'||val=='e'||val=='i'||val=='o'||val=='u'){
-//         console.log(val);
-//     }
-// })
-
+let vowels=["a","b","c","e"];
+vowels.filter((val) =>{
+    if(val=='a'||val=='e'||val=='i'||val=='o'||val=='u'){
+        console.log("filter method example: "+val);
+    }
+})
 
 //array.map
 // it will return the current array value in  a new array
-// let  prices=[899,344,566,7888];
-// prices.map((val)=>{
-//     if(val>=2000){
-//         console.log(val);
-//     }
-// })
- 
+let  prices=[899,344,566,7888];
+prices.map((val)=>{
+    if(val>=2000){
+        console.log("map method example: "+val);
+    }
+});
 //array.reduce(accumelator,current value)
-
-// let marks=[99,88,99,88,87,44,78 ];
-// marks.reduce((result,currentValue)=>{
-//   if(result &currentValue >=70){
-//     console.log("gardeA="+result)
-//   }
-// })
-// let toppers=marks.filter((val)=>{
-//     // if(val>=90){
-//     //     console.log(val)
-//     // }
-//     return val>=90
-// });
-// console.log(toppers)
+let marks=[99,88,99,88,87,44,78 ];
+marks.reduce((result,currentValue)=>{
+  if(result & currentValue >=70){
+    console.log("reduce method example: ")
+    console.log("gardeA="+result)
+  }
+});
+let toppers=marks.filter((val)=>{
+    // if(val>=90){
+    //     console.log(val)
+    // }
+    return val>=90
+});
+console.log(toppers)
 
 
 
